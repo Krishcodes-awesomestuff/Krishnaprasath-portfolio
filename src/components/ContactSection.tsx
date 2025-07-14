@@ -21,32 +21,44 @@ const ContactSection = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-4">
               <Mail className="w-5 h-5 text-accent" />
-              <span className="font-medium">alex.chen@developer.com</span>
+              <span className="font-medium">webdev.prasath@gmail.com</span>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="w-5 h-5 text-accent" />
-              <span className="font-medium">+1 (555) 123-4567</span>
+              <span className="font-medium">+91 7305541850</span>
             </div>
             <div className="flex items-center gap-4">
               <MapPin className="w-5 h-5 text-accent" />
-              <span className="font-medium">San Francisco, CA</span>
+              <span className="font-medium">Tamil Nadu, India</span>
             </div>
           </div>
           
           <div className="mt-8">
             <h4 className="font-semibold mb-4">Connect With Me</h4>
             <div className="flex gap-4">
-              <Button size="sm" variant="outline">
+              <Button 
+                size="sm" 
+                variant="outline"
+                onClick={() => window.open('https://www.linkedin.com/in/krishnaprasath-venkadesan/', '_blank')}
+              >
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </Button>
-              <Button size="sm" variant="outline">
+              <Button 
+                size="sm" 
+                variant="outline"
+                onClick={() => window.open('https://github.com/Krishcodes-awesomestuff', '_blank')}
+              >
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
               </Button>
-              <Button size="sm" variant="outline">
-                <Twitter className="w-4 h-4 mr-2" />
-                Twitter
+              <Button 
+                size="sm" 
+                variant="outline"
+                onClick={() => window.open('mailto:webdev.prasath@gmail.com', '_blank')}
+              >
+                <Mail className="w-4 h-4 mr-2" />
+                Email
               </Button>
             </div>
           </div>
@@ -87,10 +99,10 @@ const ContactSection = () => {
       <footer className="mt-12 pt-8 border-t-2 border-primary">
         <div className="text-center">
           <p className="text-sm text-muted-foreground font-medium">
-            © 2024 Alex Chen. All rights reserved. | Built with React, TypeScript & Tailwind CSS
+            © 2025 Krishnaprasath. All rights reserved. | Built with Coffee and 🧡
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            This portfolio is a testament to clean code, beautiful design, and attention to detail.
+            This portfolio showcases passion for clean code, beautiful design, and user-centered experiences.
           </p>
         </div>
       </footer>

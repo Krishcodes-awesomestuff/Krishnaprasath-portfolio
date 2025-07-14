@@ -27,7 +27,7 @@ const NewsHeader = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4" />
-            <span>San Francisco, CA</span>
+            <span>Tamil Nadu, India</span>
           </div>
         </div>
       </div>

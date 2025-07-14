@@ -7,22 +7,17 @@ const SkillsSection = () => {
     {
       icon: Code,
       title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Vue.js", "HTML5/CSS3", "Tailwind CSS"]
+      skills: ["React", "Next.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "GSAP"]
     },
     {
       icon: Palette,
       title: "Design & UX",
-      skills: ["Figma", "Adobe Creative Suite", "Prototyping", "User Research", "Wireframing", "Design Systems"]
-    },
-    {
-      icon: Smartphone,
-      title: "Mobile Development",
-      skills: ["React Native", "Flutter", "PWA", "Responsive Design", "iOS", "Android"]
+      skills: ["Figma", "Framer", "User Research", "Prototyping", "Wireframing", "Design Systems"]
     },
     {
       icon: Zap,
-      title: "Tools & Technologies",
-      skills: ["Git", "Webpack", "Jest", "Node.js", "GraphQL", "REST APIs"]
+      title: "Development Tools",
+      skills: ["Git", "GitHub", "Docker", "Bash", "VS Code", "npm/yarn"]
     }
   ];
 
@@ -32,7 +27,7 @@ const SkillsSection = () => {
         TECHNICAL EXPERTISE
       </h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {skillCategories.map((category, index) => (
           <Card key={index} className="p-6 shadow-card hover:shadow-headline transition-shadow">
             <div className="flex items-center mb-4">
@@ -54,9 +49,9 @@ const SkillsSection = () => {
       <div className="mt-8 p-6 bg-newsprint rounded-lg border-l-4 border-accent">
         <h3 className="font-serif text-xl font-bold mb-3">Current Focus Areas</h3>
         <p className="text-base leading-relaxed">
-          Currently diving deep into <strong>AI-powered user interfaces</strong>, 
-          <strong> serverless architectures</strong>, and <strong>advanced animation techniques</strong>. 
-          Always learning, always growing, always pushing the boundaries of what's possible in digital design.
+          Currently exploring <strong>advanced GSAP animations</strong>, 
+          <strong> modern React patterns</strong>, and <strong>scalable design systems</strong>. 
+          Passionate about creating seamless user experiences that blend beautiful design with cutting-edge technology.
         </p>
       </div>
     </section>

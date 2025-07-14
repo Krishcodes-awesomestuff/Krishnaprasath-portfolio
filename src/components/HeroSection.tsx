@@ -16,21 +16,21 @@ const HeroSection = () => {
           </div>
           
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-primary leading-tight mb-6">
-            Alex Chen
+            Krishnaprasath Venkadesan
             <span className="block text-3xl md:text-4xl font-normal mt-2 text-muted-foreground">
-              Transforms Ideas Into Digital Reality
+              Crafting Digital Experiences with Code & Design
             </span>
           </h1>
           
           <div className="text-lg leading-relaxed mb-6 max-w-2xl">
             <p className="mb-4">
-              <span className="font-semibold">SAN FRANCISCO</span> - A visionary UI/UX Designer and Frontend Developer 
-              has emerged in the tech scene, bringing three years of expertise in crafting exceptional 
-              digital experiences that bridge the gap between beautiful design and flawless functionality.
+              <span className="font-semibold">INDIA</span> - A passionate UI/UX Designer and Frontend Developer 
+              making waves in the tech industry, bringing expertise in React, Next.js, and modern design systems 
+              to create exceptional digital experiences that blend beautiful design with seamless functionality.
             </p>
             <p>
-              Specializing in React, TypeScript, and modern design systems, this rising talent has 
-              successfully delivered over 25 projects for startups and Fortune 500 companies alike.
+              Previously interned at Kenesis as Frontend Developer and ANS at AAI - Chennai Airport, 
+              this talented developer has successfully delivered 7+ projects with expertise in GSAP animations and user research.
             </p>
           </div>
           
@@ -51,7 +51,7 @@ const HeroSection = () => {
           <div className="relative">
             <img 
               src={developerProfile} 
-              alt="Alex Chen - UI/UX Designer & Frontend Developer"
+              alt="Krishnaprasath Venkadesan - UI/UX Designer & Frontend Developer"
               className="w-64 h-64 object-cover rounded-full border-4 border-primary shadow-card"
             />
             <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium shadow-headline">

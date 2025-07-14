@@ -10,19 +10,19 @@ const AboutSection = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card className="p-6 shadow-card">
-          <h3 className="font-serif text-2xl font-bold mb-4">The Story Behind the Code</h3>
+          <h3 className="font-serif text-2xl font-bold mb-4">The Developer's Journey</h3>
           <div className="space-y-4 text-base leading-relaxed">
             <p>
-              "My journey began with a simple question: How can technology make people's lives better?" 
-              explains Chen during our exclusive interview at their modern San Francisco studio.
+              "My journey started with curiosity about how digital experiences can transform ideas into reality," 
+              explains Krishnaprasath during our exclusive interview from Tamil Nadu, India.
             </p>
             <p>
-              With a background in both Computer Science and Design, Chen brings a unique perspective 
-              that bridges technical excellence with user-centered thinking.
+              With internship experience at Kenesis as a Frontend Developer and ANS at AAI - Chennai Airport, 
+              Krishnaprasath brings practical knowledge in both web development and enterprise systems.
             </p>
             <p>
-              "I don't just write code or create pretty interfaces. I solve problems that real people face, 
-              and I do it with both functionality and beauty in mind."
+              "I don't just build websites; I craft digital experiences that combine beautiful design with 
+              smooth animations and user-centered functionality using modern technologies like React and GSAP."
             </p>
           </div>
         </Card>
@@ -31,12 +31,12 @@ const AboutSection = () => {
           <h3 className="font-serif text-2xl font-bold mb-4">By The Numbers</h3>
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center p-4 bg-newsprint rounded-lg">
-              <div className="font-serif text-3xl font-bold text-primary">25+</div>
+              <div className="font-serif text-3xl font-bold text-primary">7+</div>
               <div className="text-sm text-muted-foreground">Projects Delivered</div>
             </div>
             <div className="text-center p-4 bg-newsprint rounded-lg">
-              <div className="font-serif text-3xl font-bold text-primary">3</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
+              <div className="font-serif text-3xl font-bold text-primary">2</div>
+              <div className="text-sm text-muted-foreground">Internship Experience</div>
             </div>
             <div className="text-center p-4 bg-newsprint rounded-lg">
               <div className="font-serif text-3xl font-bold text-primary">100%</div>
@@ -49,11 +49,11 @@ const AboutSection = () => {
           </div>
           
           <div className="mt-6">
-            <h4 className="font-semibold mb-3">Education & Credentials</h4>
+            <h4 className="font-semibold mb-3">Professional Experience</h4>
             <div className="space-y-2">
-              <Badge variant="outline">B.S. Computer Science</Badge>
-              <Badge variant="outline">UX Design Certificate</Badge>
-              <Badge variant="outline">Google Analytics Certified</Badge>
+              <Badge variant="outline">Frontend Developer - Kenesis</Badge>
+              <Badge variant="outline">Software Developer - ANS AAI</Badge>
+              <Badge variant="outline">GSAP Animation Expert</Badge>
             </div>
           </div>
         </Card>
