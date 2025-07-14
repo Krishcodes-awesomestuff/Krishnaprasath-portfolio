@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       tech: ["Next.js", "Tailwind CSS", "Vite", "Vercel"],
       impact: "Improved community engagement",
       year: "2024",
-      link: "https://edc-website-phi.vercel.app"
+      link: "https://edcrec.vercel.app/"
     },
     {
       title: "Autobots Inc",
