@@ -56,7 +56,7 @@ const NotFound = () => {
           
           <footer className="mt-12 pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground">
-              © 2024 The Developer Times. All rights reserved.
+              © 2025 Krishnaprasath. All rights reserved.
             </p>
           </footer>
         </div>
