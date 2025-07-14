@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       title: "Shapesfit",
       category: "Gym Landing Page",
       description: "Modern, responsive landing page for a fitness center featuring interactive animations and user-friendly design to boost member engagement.",
-      tech: ["React", "Tailwind CSS", "GSAP"],
+      tech: ["HTML", "CSS", "GSAP"],
       impact: "Enhanced user engagement",
       year: "2024",
       link: "https://shapesfit.vercel.app"
@@ -18,7 +18,7 @@ const ProjectsSection = () => {
       title: "RECHACKS",
       category: "Hackathon Platform",
       description: "Dynamic hackathon landing page with event registration, timeline, and participant showcase. Built with modern web technologies.",
-      tech: ["Next.js", "Tailwind CSS", "Framer"],
+      tech: ["Next.js", "Tailwind CSS", "GSAP", "Vercel"],
       impact: "Streamlined event registration",
       year: "2024",
       link: "https://rechacks.vercel.app"
@@ -27,7 +27,7 @@ const ProjectsSection = () => {
       title: "E-Cell REC",
       category: "Entrepreneurship Hub",
       description: "Comprehensive landing page for Entrepreneurship Development Cell featuring event showcases, team profiles, and resource sections.",
-      tech: ["React", "CSS3", "JavaScript"],
+      tech: ["Next.js", "Tailwind CSS", "Vite", "Vercel"],
       impact: "Improved community engagement",
       year: "2024",
       link: "https://edc-website-phi.vercel.app"
@@ -109,11 +109,7 @@ const ProjectsSection = () => {
         ))}
       </div>
       
-      <div className="mt-8 text-center">
-        <Button size="lg" variant="outline">
-          View All Projects
-        </Button>
-      </div>
+      
     </section>
   );
 };

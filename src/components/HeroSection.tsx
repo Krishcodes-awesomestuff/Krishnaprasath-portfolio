@@ -10,39 +10,40 @@ const HeroSection = () => {
         {/* Main headline */}
         <div className="lg:col-span-2">
           <div className="mb-4">
-            <Badge variant="secondary" className="text-xs font-medium tracking-wide mb-4">
-              BREAKING: NEW TALENT AVAILABLE
-            </Badge>
           </div>
           
-          <h1 className="font-serif text-5xl md:text-7xl font-bold text-primary leading-tight mb-6">
+          <h1 className="font-serif text-5xl md:text-6xl font-bold text-primary leading-tight mb-6">
             Krishnaprasath Venkadesan
             <span className="block text-3xl md:text-4xl font-normal mt-2 text-muted-foreground">
-              Crafting Digital Experiences with Code & Design
+            Designing Code, Building Stories
             </span>
           </h1>
           
           <div className="text-lg leading-relaxed mb-6 max-w-2xl">
             <p className="mb-4">
-              <span className="font-semibold">INDIA</span> - A passionate UI/UX Designer and Frontend Developer 
-              making waves in the tech industry, bringing expertise in React, Next.js, and modern design systems 
-              to create exceptional digital experiences that blend beautiful design with seamless functionality.
+              <span className="font-semibold">INDIA</span> - An UI/UX designer and frontend developer with a passion for creating digital experiences
+               that are both beautiful and intuitive. With a strong foundation in React, Next.js, and
+                modern design systems, Krishnaprasath love turning complex ideas into simple, engaging interfaces.
+                Whether refining a user flow or adding a subtle touch of humor, his goal is always to
+                make the web a more delightful place one project at a time.
             </p>
-            <p>
-              Previously interned at Kenesis as Frontend Developer and ANS at AAI - Chennai Airport, 
-              this talented developer has successfully delivered 7+ projects with expertise in GSAP animations and user research.
-            </p>
+            
           </div>
-          
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" className="shadow-headline">
-              <Mail className="w-4 h-4 mr-2" />
-              Get In Touch
-            </Button>
-            <Button variant="outline" size="lg">
-              <Download className="w-4 h-4 mr-2" />
-              Download Resume
-            </Button>
+            <a href="mailto:webdev.prasath@gmail.com">
+              <Button size="lg" className="shadow-headline">
+                <Mail className="w-4 h-4 mr-2" />
+                Get In Touch
+              </Button>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1MmdF7UQcBxGkENV6J4EkMM7er_4pJuJq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="lg">
+                <Download className="w-4 h-4 mr-2" />
+                Download Resume
+              </Button>
+            </a>
+            
           </div>
         </div>
         
@@ -54,9 +55,6 @@ const HeroSection = () => {
               alt="Krishnaprasath Venkadesan - UI/UX Designer & Frontend Developer"
               className="w-64 h-64 object-cover rounded-full border-4 border-primary shadow-card"
             />
-            <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium shadow-headline">
-              Available Now
-            </div>
           </div>
         </div>
       </div>

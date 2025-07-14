@@ -87,10 +87,12 @@ const ContactSection = () => {
             </div>
             
             <div className="text-center pt-4">
+            <a href="mailto:webdev.prasath@gmail.com">
               <Button size="lg" className="w-full shadow-headline">
                 <Mail className="w-4 h-4 mr-2" />
                 Send Message
               </Button>
+            </a>
             </div>
           </div>
         </Card>

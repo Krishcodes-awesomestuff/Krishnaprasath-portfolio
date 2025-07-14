@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section className="mb-12">
       <h2 className="font-serif text-4xl font-bold text-primary mb-6 border-b-2 border-primary pb-2">
-        EXCLUSIVE INTERVIEW
+        ABOUT SECTION
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -13,17 +13,18 @@ const AboutSection = () => {
           <h3 className="font-serif text-2xl font-bold mb-4">The Developer's Journey</h3>
           <div className="space-y-4 text-base leading-relaxed">
             <p>
-              "My journey started with curiosity about how digital experiences can transform ideas into reality," 
-              explains Krishnaprasath during our exclusive interview from Tamil Nadu, India.
+              Krishnaprasath always had a passion for coding and programming. He started his journey
+              with a strong foundation in HTML, CSS, and JavaScript. From coding simple login pages and navbar to
+              creating websites that had a use case and purpose.
             </p>
+
             <p>
-              With internship experience at Kenesis as a Frontend Developer and ANS at AAI - Chennai Airport, 
-              Krishnaprasath brings practical knowledge in both web development and enterprise systems.
+            What began as a passion project during college events has now grown into a thriving 
+            freelance career. Since 2025, Krishnaprasath has been collaborating with startups,
+            student led ventures, and small businesses transforming ideas into responsive,
+            aesthetic, and user focused websites.
             </p>
-            <p>
-              "I don't just build websites; I craft digital experiences that combine beautiful design with 
-              smooth animations and user-centered functionality using modern technologies like React and GSAP."
-            </p>
+            <p>Now, as a full-time freelancer, he is committed to delivering digital experience for his clients</p>
           </div>
         </Card>
         
@@ -51,8 +52,9 @@ const AboutSection = () => {
           <div className="mt-6">
             <h4 className="font-semibold mb-3">Professional Experience</h4>
             <div className="space-y-2">
-              <Badge variant="outline">Frontend Developer - Kenesis</Badge>
-              <Badge variant="outline">Software Developer - ANS AAI</Badge>
+            <Badge variant="outline">Freelance Frontend Developer</Badge>
+              <Badge variant="outline">Frontend Developer @ Kenesis</Badge>
+              <Badge variant="outline">Interned as ANS @ AAI</Badge>
               <Badge variant="outline">GSAP Animation Expert</Badge>
             </div>
           </div>
