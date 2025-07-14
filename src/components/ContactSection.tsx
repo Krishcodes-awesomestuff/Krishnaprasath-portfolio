@@ -104,7 +104,7 @@ const ContactSection = () => {
             © 2025 Krishnaprasath. All rights reserved. | Built with Coffee and 🧡
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            This portfolio showcases passion for clean code, beautiful design, and user-centered experiences.
+            This portfolio showcases passion for clean code, beautiful design, and user centered experiences.
           </p>
         </div>
       </footer>
